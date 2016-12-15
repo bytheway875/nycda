@@ -1,0 +1,16 @@
+.cell {
+  height: 100px;
+  width: 100px;
+  background-color: #999;
+  display: inline-block;
+}
+
+.cell:nth-child(3n) {
+  background-color: #F00;
+  
+}
+
+
+.cell:nth-child(3n)::after {
+  display: block;
+}
