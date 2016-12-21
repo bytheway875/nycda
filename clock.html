@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<meta charset="UTF-8">
+<title>Hex Color Clock</title>
+<link rel="stylesheet" type="text/css" href="clock.css"/>
+
+</head>
+
+
+
+
+	<h1 id="clock">00 : 00 : 00</h1>
+	<p id="hex-clock">#000000</p>
+
+
+	<script>
+
+		var name = new Date();
+
+		console.log(time.getHours());
+		console.log(time.getMinutes());
+		console.log(time.getSeconds());
+
+		var clock = document.getElementById("clock");
+		var hexColor = document.getElementById("hex-color");
+		function hexClock() {
+			var time = new Date();
+			var hours = time.getHours();
+			var minutes = time.getminutes();
+			var seconds = time.getSeconds();
+
+			if (hours.length < 2) {
+				hours = "0" + hours;
+
+			if (minutes.length < 2) {
+				minutes = "0" + minutes
+
+			if (seconds.length < 2) {
+				seconds = "0" + seconds;
+			}
+
+			var hexColorStr = "#" + hours + minutes + seconds;
+		}
+
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script src="nycda\clock.js"></script> 
+
+</body>
+</html>
+ 

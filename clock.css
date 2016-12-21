@@ -1,0 +1,9 @@
+body {
+	font-family: arial;
+	margin-top: 200px;
+	text-align: center;
+}
+#clock {
+	font-weight: 300;
+	font-size: 100px;
+}

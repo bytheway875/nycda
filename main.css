@@ -13,4 +13,5 @@
 
 .cell:nth-child(3n)::after {
   display: block;
-}
+
+

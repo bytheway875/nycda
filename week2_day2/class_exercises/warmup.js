@@ -100,33 +100,4 @@ for (var i = 0; i < studentsgrades.length; i++) {
 //B
 //90+
 
-numbers.reversed();
-
-for (var i = 0; i < number.length; i++) {
-	if(numbers[i]  < 10 ){
-		console.log("Less is more");
-		else {
-			console.log("More is better");
-		}
-	}
-
-	//local scope example:
-	
-}var z = 3;
-
-function someF() (
-	var z = 20;
-	console.log(z);
-}
-someF()
->>20
-
-console.log(z);
->>3
-
-
-	
-
-
-
-
+numbers.reversed(
