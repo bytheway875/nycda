@@ -1,0 +1,39 @@
+
+
+
+
+
+
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+gem 'sinatra'
+
+require sinatra
+
+get "/:name" do 
+	"This is #{parama[:name]}'s page"
+end
+
+params: is a hash of the parameters
+
+------------------------
+view and templets
+
+
+get "/" do 
+	erb :index
+
+
+exicutable ruby (erb)
+
+
+looks for files at the files 
+------------------------
+
+
+if you want to be able to  capitalize the last name
+
+@name = params[:name].capitalize
+erb :name
+

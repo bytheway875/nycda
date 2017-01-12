@@ -1,9 +1,13 @@
+
 body {
-	font-family: arial;
-	margin-top: 200px;
-	text-align: center;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 200px;
+  text-align: center;
 }
+
 #clock {
-	font-weight: 300;
-	font-size: 100px;
+  font-weight: 300;
+  font-size: 100px;
 }
+
